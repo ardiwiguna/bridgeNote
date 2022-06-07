@@ -1,0 +1,50 @@
+a {
+    color: #040338 !important;
+    text-decoration: none !important;
+}
+
+.mainBg {
+    background-image: url(./assets/img/Background.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.formLogin {
+    width: clamp(380px, 33%, 500px);
+    background-color: white;
+    opacity: 90%;
+    border-radius: 10px;
+}
+
+.formLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    width: 90%;
+}
+
+.form-control {
+    border: none !important;
+    border-bottom: 2px solid #040338 !important;
+    border-radius: 0 !important;
+}
+
+@media screen and (max-width: 600px) {
+    .formLogin {
+        width: 70%;
+    }
+
+    .formLogo {
+        width: 50%;
+    }
+}
+
+@media (max-aspect-ratio: 3/2) {
+    .formLogin {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

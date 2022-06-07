@@ -1,0 +1,10 @@
+.label-formLogin,
+.label-formLogin a {
+    font-size: .9rem !important;
+    color: rgb(112, 111, 111) !important;
+}
+
+.button-signIn {
+    background-color: #1064b3;
+    border-radius: 10px;
+}
